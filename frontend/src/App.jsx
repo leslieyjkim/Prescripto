@@ -1,9 +1,11 @@
 import React from 'react'
 
-export const App = () => {
+const App = () => {
   return (
-    <div>
-
+    <div className='text-green-500'>
+      Testing Tailwind
     </div>
   )
 }
+
+export default App
