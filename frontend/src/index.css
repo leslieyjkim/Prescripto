@@ -1,3 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.active hr{
+    @apply block
+}
+/* //this makes 'blue- underline' on the page I clicked(it turns to 'class="active" once it's clicked) in the navBar menus */
