@@ -20,6 +20,25 @@ const About = () => {
         </div>
       </div>
 
+      <div className='text-xl my-4'>
+        <p>WHY <span className='text-gray-700 font-semibold'>CHOOSE US</span></p>
+      </div>
+
+      <div>
+        <div>
+          <b>EFFICIENCY:</b>
+          <p>Streamlined Appintment Scheduling That Fits Into Your Busy Lifestyle.</p>
+        </div>
+        <div>
+          <b>CONVENIENCE:</b>
+          <p>Access To A Network Of Trusted  Healthcare Professionals In Your Area.</p>
+        </div>
+        <div>
+          <b>PERSONALIZATION:</b>
+          <p>Tailored Recommendations And Reminders To Help You Stay On Top Of Your Health.</p> 
+        </div>
+      </div>
+
     </div>
   )
 }
