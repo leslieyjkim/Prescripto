@@ -1,6 +1,7 @@
 import React, { useContext, useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom'
 import { AppContext } from '../context/AppContext'
+import { assets } from '../assets/assets'
 
 const Appointment = () => {
 
@@ -19,12 +20,30 @@ const Appointment = () => {
     fetchDocInfo()
   },[doctors,docId])
 
-  return ( 
+  return docInfo && ( 
     <div>
      {/* ------- Doctor Details ------- */}
      <div>
       <div>
         <img src={docInfo.image} alt=""/>
+      </div>
+
+      <div>
+        {/* ------ Doctor Info : name, degree, experience ------ */}
+        <p>
+          {docInfo.name} 
+          <img src={assets.verified_icon} alt="" />
+        </p>
+        <div>
+          <p>{docInfo.degree} - {docInfo.speciality}</p>
+          <button>{docInfo.experience}</button>
+        </div>
+
+        {/* ------ Doctor About ------ */}
+        <div>
+          <p>About <img src={assets.info_icon} alt=""/></p>
+          <p>{docInfo.about}</p>
+        </div>
       </div>
      </div>
     </div>  
