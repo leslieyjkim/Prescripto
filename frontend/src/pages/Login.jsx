@@ -18,6 +18,20 @@ const Login = () => {
     <form className='min-h-[80vh] flex items-center'>
       <div>
         <p>{state === 'Sign Up' ? "Create Account" : "Login"}</p>
+        <p>Please {state === 'Sign Up' ? "sign up" : "log in"} to book appointment</p>
+        <div>
+          <p>Full Name</p>
+          <input type="text" onChange={(e)=>setName(e.target.name)} value={name} required/>
+        </div>
+        <div>
+          <p>Email</p>
+          <input type="email" onChange={(e)=>setName(e.target.name)} value={name} required/>
+        </div>
+        <div>
+          <p>Password</p>
+          <input type="password" onChange={(e)=>setName(e.target.name)} value={name} required/>
+        </div>
+        <button>{state === 'Sign Up' ? "Create Account" : "Login"}</button>
       </div>
     </form>
   )
