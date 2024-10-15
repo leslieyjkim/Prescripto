@@ -21,3 +21,7 @@ In backend folders
 * models : we'll create mongoos models to store data in the formated structures.
 * routes : we'll set up different routes for the different APIs like user login appointment booking and ETC. 
 * .env : we'll store the environment variables. 
+
+
+[Mongodb Atlas]
+https://www.mongodb.com/cloud/atlas/register
