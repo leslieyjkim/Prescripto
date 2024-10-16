@@ -1,9 +1,8 @@
 
 
 
-
 //API for adding doctor
-const addDoctor = async () => {
+const addDoctor = async (req, res) => {
 
     try {
 
