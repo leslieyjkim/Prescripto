@@ -19,6 +19,8 @@ app.use(cors())
 
 // api endpoints
 app.use('/api/admin',adminRouter)
+// localhost:4000/api/admin/add-doctor 
+// above line: this will be execute 'addDoctor' controller function.
 
 
   
