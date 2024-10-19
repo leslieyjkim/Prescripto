@@ -11,8 +11,10 @@ start : npm run dev
 In [cd backend]
 npm init
 npm install express mongoose multer bcrypt cloudinary cors dotenv jsonwebtoken nodemon validator
-start : npm run server (npm start => npm run server //because we installed nodemon and added scripts in package.json)
-
+start : npm run server (npm start => npm run server //because we installed nodemon and added scripts in package.json),<br><br>
+```
+npm run server (backend start command w/using nodemon)
+```
 
 In backend folders
 * config folder : we're going to store multiple configuration file like cloudinary config, mongo DB config.
