@@ -27,3 +27,15 @@ In backend folders
 
 [Mongodb Atlas]
 https://www.mongodb.com/cloud/atlas/register
+
+[Cloudinary]
+
+[Postman]
+Didn't use 'Thunder Client', because free version doesn't allow 'file send'. 
+So I use Postman instead.
+
+[Convert image to BASE64]
+https://www.base64-image.de/
+
+[Text Stringify : With this tool you can JSON stringify the given text.]
+https://onlinetexttools.com/json-stringify-text
