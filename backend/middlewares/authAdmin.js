@@ -1,6 +1,7 @@
 import jwt from 'jsonwebtoken'
 
 // admin authentication middleware
+// atoken means admin token
 const authAdmin = async (req, res, next) => {
     try {
 

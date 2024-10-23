@@ -4,7 +4,7 @@
 
 Start separate terminals, one for 'frontend' the other for 'backend'
 
-In [cd frontend]
+In [cd frontend] port:5173
 start : npm run dev
 
 
@@ -14,6 +14,12 @@ npm install express mongoose multer bcrypt cloudinary cors dotenv jsonwebtoken n
 start : npm run server (npm start => npm run server //because we installed nodemon and added scripts in package.json),<br><br>
 ```
 npm run server (backend start command w/using nodemon)
+```
+
+
+In [admin terminal] port:5174
+```
+start: npm run dev
 ```
 
 In backend folders
@@ -44,3 +50,6 @@ https://onlinetexttools.com/json-stringify-text
 
 [admin folder]
 npm install axios react-router-dom react-toastify
+
+[admin]
+tailwind vite : https://tailwindcss.com/docs/guides/vite
