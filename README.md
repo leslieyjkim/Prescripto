@@ -39,3 +39,8 @@ https://www.base64-image.de/
 
 [Text Stringify : With this tool you can JSON stringify the given text.]
 https://onlinetexttools.com/json-stringify-text
+
+
+
+[admin folder]
+npm install axios react-router-dom react-toastify
