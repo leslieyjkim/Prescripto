@@ -2,6 +2,7 @@ import React, { useContext, useState } from 'react'
 import {assets} from '../assets/assets'
 import { AdminContext } from '../context/AdminContext'
 import axios from 'axios'
+import { toast } from 'react-toastify'
 
 const Login = () => {
 
@@ -13,6 +14,7 @@ const Login = () => {
     const {setAToken,backendUrl} = useContext(AdminContext)
 
     const onSubmitHandler = async (event) => {
+
         event.preventDefault()
 
         try {
@@ -23,6 +25,8 @@ const Login = () => {
                 if (data.success) {
                     localStorage.setItem('aToken',data.token)
                     setAToken(data.token)
+                } else {
+                    toast.error(data.message)
                 }
 
             } else {
