@@ -31,14 +31,14 @@ In backend folders
 * .env : we'll store the environment variables. 
 
 
-[Mongodb Atlas]
+[DATA BASE : Mongodb Atlas]
 https://www.mongodb.com/cloud/atlas/register
 
 [Cloudinary]
 
 [Postman]
 Didn't use 'Thunder Client', because free version doesn't allow 'file send'. 
-So I use Postman instead.
+So I used Postman instead.
 
 [Convert image to BASE64]
 https://www.base64-image.de/
