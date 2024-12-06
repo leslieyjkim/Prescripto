@@ -34,6 +34,8 @@ In backend folders
 [DATA BASE : Mongodb Atlas]
 https://www.mongodb.com/cloud/atlas/register
 
+[CSS : Tailwind]
+
 [Cloudinary]
 
 [Postman]
