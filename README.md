@@ -53,3 +53,7 @@ npm install axios react-router-dom react-toastify
 
 [admin]
 tailwind vite : https://tailwindcss.com/docs/guides/vite
+
+
+[online payment in backend]
+npm install razorpay

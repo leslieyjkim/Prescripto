@@ -14,5 +14,14 @@ userRouter.post("/book-appointment", authUser, bookAppointment)
 userRouter.get('/appointments',authUser,listAppointment)
 userRouter.post('/cancel-appointment', authUser, cancelAppointment)
 
+//if you want to use razorpay for online payment
+//you should add 'paymentRazorpay' into the line2, import{} list. 
+//userRouter.post('/payment-razorpay', authUser, paymentRazorpay)
+
+//you should add 'verifyRazorpay' into the line@, import{} list.
+//userRouter.post('/verifyRazorpay', authUser, verifyRazorpay)
+
+
+
 
 export default userRouter
