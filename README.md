@@ -2,7 +2,7 @@
 
 
 
-Start separate terminals, one for 'frontend' the other for 'backend'
+Start separate 3 terminals, one for 'frontend' the other for 'backend' and 'admin';
 
 In [cd frontend] port:5173
 start : npm run dev
