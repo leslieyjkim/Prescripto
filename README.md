@@ -59,3 +59,9 @@ tailwind vite : https://tailwindcss.com/docs/guides/vite
 
 [online payment in backend]
 npm install razorpay
+
+
+
+[User login] user.greatstack@gmail.com
+[Admin login] admin@prescripto.com
+[Doctor login] richardJ@prescripto.com
